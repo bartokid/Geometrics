@@ -1,3 +1,3 @@
-** Geometrics
+## Geometrics
 
-* bla bla bla
+# bla bla bla
