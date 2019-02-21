@@ -1,15 +1,15 @@
 public class Cuadrado extends Rectangulo{
-    private double c;
-    public Cuadrado(double _c){
-        super(_c,_c);
-        this.c=_c;
+    public Cuadrado(double c){
+        super(c,c);
     }
 
     public void setC(double c) {
-        this.c = c;
+
+        super.setL1(c);
+        super.setL2(c);
     }
 
     public double getC() {
-        return c;
+        return super.getL1();
     }
 }

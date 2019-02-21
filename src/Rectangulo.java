@@ -6,6 +6,7 @@ public class Rectangulo extends Figura {
     }
 
     public double getL1() {
+        // TO -DO 
         return l1;
     }
 
